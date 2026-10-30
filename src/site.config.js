@@ -18,6 +18,6 @@ export const SITE = {
   cloudflareAnalyticsToken: '',
 
   // اختياري: أكواد التحقق من أدوات مشرفي المواقع
-  googleSiteVerification: '',
+  googleSiteVerification: 'kJUYA3R2rlXEYQZ6xyX-FC7D6YQIl6wRsU2Tw-Bjqtk',
   bingSiteVerification: '',
 };
