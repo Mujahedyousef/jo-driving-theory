@@ -219,5 +219,5 @@ export function trackForRoute(parts) {
 
 /** عنوان الصفحة في <title>: نضيف اسم الموقع إن بقي العنوان معقول الطول */
 export function fullTitle(m) {
-  return m.title.length + SITE.name.length + 3 <= 68 ? `${m.title} | ${SITE.name}` : m.title;
+  return m.title.length + SITE.shortName.length + 3 <= 68 ? `${m.title} | ${SITE.shortName}` : m.title;
 }

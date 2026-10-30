@@ -36,7 +36,7 @@ function Header({ active }) {
               <path d="M50 14 88 82H12Z" fill="#fff" stroke="#f4b400" strokeWidth="9" strokeLinejoin="round" />
             </svg>
           </span>
-          <span>{SITE.name}</span>
+          <span>{SITE.shortName}</span>
         </Link>
         <Link to="" className="track-chip" title="تغيير الفئة">
           {track.emoji} {track.short}

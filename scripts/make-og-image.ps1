@@ -61,9 +61,9 @@ $g.DrawString('50', (Font 64), $dark, (New-Object System.Drawing.RectangleF 320,
 $textRect = { param($y, $h) New-Object System.Drawing.RectangleF 480, $y, 660, $h }
 $pillBrush = New-Object System.Drawing.SolidBrush ([System.Drawing.Color]::FromArgb(70, 255, 255, 255))
 $g.FillRectangle($pillBrush, 600, 50, 540, 52)
-$g.DrawString('فحص السواقة النظري • الأردن', (Font 30), $white, (New-Object System.Drawing.RectangleF 610, 54, 520, 46), $rtl)
+$g.DrawString('الفحص النظري • في الأردن', (Font 30), $white, (New-Object System.Drawing.RectangleF 610, 54, 520, 46), $rtl)
 
-$g.DrawString('دليلك للفحص النظري', (Font 84), $white, (New-Object System.Drawing.RectangleF 300, 150, 840, 130), $rtl)
+$g.DrawString('تدريب لامتحان السواقة', (Font 76), $white, (New-Object System.Drawing.RectangleF 300, 150, 840, 130), $rtl)
 $sub = New-Object System.Drawing.SolidBrush (C 230 244 242)
 $g.DrawString('دروس مبسّطة وأسئلة بالشرح', (Font 50), $sub, (& $textRect 290 70), $rtl)
 $g.DrawString('واختبار تجريبي مثل الامتحان', (Font 50), $sub, (& $textRect 350 70), $rtl)

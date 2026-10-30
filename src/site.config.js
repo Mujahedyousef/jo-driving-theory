@@ -1,6 +1,8 @@
 // إعدادات النشر والـ SEO. عدّل القيم التالية مرة واحدة قبل النشر.
 export const SITE = {
-  name: 'دليلك للفحص النظري',
+  name: 'تدريب لامتحان السواقة في الأردن',
+  // اسم مختصر للترويسة وعنوان الصفحة (<title>) وأيقونة الهاتف
+  shortName: 'تدريب لامتحان السواقة',
   // عنوان موقعك بعد النشر (بدون / في النهاية). مثال Cloudflare Pages: https://اسم-المشروع.pages.dev
   // يمكن تجاوزه عند البناء: SITE_URL=https://example.com npm run build
   url: 'https://jo-driving-theory.pages.dev',
